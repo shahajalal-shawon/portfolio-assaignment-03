@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@5"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  </head>
+  <body class="bg-[#1e2125] text-white font-roboto">
+    <!-- nav section -->
+    <div class="navbar text-white lg:px-10">
+      <div class="navbar-start">
+        <div class="dropdown">
+          <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              class="h-5 w-5"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M4 6h16M4 12h8m-8 6h16"
+              />
+            </svg>
+          </div>
+          <ul
+            tabindex="-1"
+            class="menu menu-lg dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow"
+          >
+            <li><a>Home</a></li>
+            <li><a>About Me</a></li>
+            <li><a>Skills</a></li>
+            <li><a>Projects</a></li>
+            <li><a>Services</a></li>
+            <li><a>Contact</a></li>
+          </ul>
+        </div>
+        <a class="btn btn-ghost text-3xl text-red-500 font-bold">Portfolio.</a>
+      </div>
+      <div class="navbar-center hidden lg:flex ml-20">
+        <ul class="menu menu-horizontal text-lg gap-10 px-1">
+          <li><a>Home</a></li>
+          <li><a>About Me</a></li>
+          <li><a>Skills</a></li>
+          <li><a>Projects</a></li>
+          <li><a>Services</a></li>
+          <li><a>Contact</a></li>
+        </ul>
+      </div>
+      <div
+        class="navbar-end transition-transform duration-300 hover:-translate-y-1"
+      >
+        <a
+          class="btn bg-[#1e2125] shadow-xl/90 border-none text-red-500 text-md"
+          >Hire Me / Contact</a
+        >
+      </div>
+    </div>
+    <!-- Hero Section -->
+    <div class="flex-column md:flex lg:flex justify-evenly">
+      <div class="mt-50 font-medium p-2 justify-center">
+        <p class="text-2xl mb-4">Welcome to my world</p>
+        <h2 class="text-6xl mb-4">
+          Hi, I’m <span class="text-red-500">Shahajala Shawon</span>
+        </h2>
+        <p class="text-4xl mb-4">a FullStack Developer.</p>
+        <p>
+          I use animation as a third dimension by which to simplify experiences
+          and kuiding <br />
+          thro each and every interaction. I’m not adding motion just to spruce
+          things up, <br />
+          but doing it in ways that.
+        </p>
+        <p class="mt-10 mb-6 lg:mt-20">FIND WITH ME</p>
+        <div class="lg:flex gap-4">
+          <i
+            class="fa fa-facebook p-6 bg-[#1e2125] shadow-xl/90 transition-transform duration-300 hover:-translate-y-1"
+            aria-hidden="true"
+          ></i>
+          <i
+            class="fa fa-twitter p-6 bg-[#1e2125] shadow-xl/90 transition-transform duration-300 hover:-translate-y-1"
+            aria-hidden="true"
+          ></i>
+          <i
+            class="fa fa-linkedin p-6 bg-[#1e2125] shadow-xl/90 transition-transform duration-300 hover:-translate-y-1"
+            aria-hidden="true"
+          ></i>
+        </div>
+      </div>
+      <div class="relative">
+        <img
+          class="lg:w-lg z-20 relative"
+          src="img/bannar-removebg-preview.png"
+          alt=""
+        />
+        <div
+          class="absolute bottom-0 left-10 z-10 lg:w-[460px] lg:h-[550px] bg-[#1e2125] shadow-xl/50 rounded"
+        ></div>
+      </div>
+    </div>
+    <!-- Blog Section -->
+    <div class="mt-50">
+      <div class="text-center">
+        <p class="text-red-500 text-lg mb-2 font-medium">
+          Visit my blog and keep your feedback
+        </p>
+        <h2 class="text-6xl font-medium mb-16">My Blog</h2>
+      </div>
+      <div class="lg:flex gap-10 max-w-7xl mx-auto">
+        <!-- card 1 -->
+        <div class="card bg-[#1e2125] mb-4 shadow-xl/90 w-96">
+          <figure class="px-8 pt-8">
+            <img src="./img/card1.jpg" alt="Shoes" class="rounded-xl" />
+          </figure>
+          <div class="card-body">
+            <h2 class="font-medium text-lg text-red-500">Development</h2>
+            <p class="font-medium text-2xl">
+              The Best Ways to Do Market Research For Your Business Plan.
+            </p>
+          </div>
+        </div>
+        <!-- card 2 -->
+        <div class="card bg-[#1e2125] mb-4 shadow-xl/90 w-96">
+          <figure class="px-8 pt-8">
+            <img src="./img/card2.jpg" alt="Shoes" class="rounded-xl" />
+          </figure>
+          <div class="card-body">
+            <h2 class="font-medium text-lg text-red-500">Quote</h2>
+            <p class="font-medium text-2xl">
+              The Easiest Way to Become a Successful Writer and Authors.
+            </p>
+          </div>
+        </div>
+        <!-- card 3 -->
+        <div class="card bg-[#1e2125] mb-4 shadow-xl/90 w-96">
+          <figure class="px-8 pt-8">
+            <img src="./img/card3.jpg" alt="Shoes" class="rounded-xl" />
+          </figure>
+          <div class="card-body">
+            <h2 class="font-medium text-lg text-red-500">Technician</h2>
+            <p class="font-medium text-2xl">
+              The Quickest Way to Deliver Your Message? Make It Visual.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  </body>
+</html>
