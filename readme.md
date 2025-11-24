@@ -4,4 +4,4 @@
 
 ### Email: shahajalalsheikh001@gmail.com
 
-[ Live url](অ্যাসাইনমেন্টের লাইভ url লিংক দিন)
+[ Live url](https://cerulean-duckanoo-f07302.netlify.app/)
